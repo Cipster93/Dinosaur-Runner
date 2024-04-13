@@ -1,0 +1,46 @@
+.board{
+    margin-top: 20px;
+    width: 900px;
+    height: 200px;
+    border: 1px solid black;
+}
+.din{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 3px;
+    font-size: 60px;
+}
+.obst{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    margin-top: -40px;
+    background-color: black;
+}
+.score{
+    margin-left: 800px;
+    margin-top: -35px;
+}
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+.cloud {
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    margin-top: -150px;
+    background-image: url('cloud.jpg');
+    background-size: cover;
+}
+.road{
+    width: 898px;
+    height: 20px;
+    margin-top: 145px;
+    border: 1px solid black;
+    background-color: green;
+}
